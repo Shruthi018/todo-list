@@ -50,6 +50,6 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 ## Demo
 
-(https://github.com/Shruthi018/todo-list/assets/137261316/50f3804e-5a92-4cad-bd2f-b28e5caeff3e
-)
+https://github.com/Shruthi018/todo-list/assets/137261316/50f3804e-5a92-4cad-bd2f-b28e5caeff3e
+
 
