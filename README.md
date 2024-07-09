@@ -9,9 +9,6 @@ This is a simple To-Do List application built with HTML, CSS, and JavaScript. It
 - Delete tasks from the list
 - Persistent storage using local storage (tasks remain even after refreshing the page)
 
-## Demo
-
-[Link to the live demo](https://your-demo-link.com) (optional)
 
 ## Getting Started
 
@@ -25,14 +22,13 @@ You will need a web browser and vs code to run this application.
 
 1. Clone the repository:
 
-sh
-    git clone https://github.com/yourusername/todo-list.git
+    git clone https://github.com/Shruthi018/todo-list.git
 
 2. Navigate to the project directory:
 
     cd todo-list
 
-3. Open `index.html` in your web browser to view the application.
+3. Open `home.html` in your web browser to view the application.
 
 ## Usage
 
@@ -52,4 +48,7 @@ sh
 
 Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
 
+## Demo
+
+Uploading todo list - Made with Clipchamp.mp4…
 
