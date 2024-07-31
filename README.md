@@ -48,8 +48,7 @@ You will need a web browser and vs code to run this application.
 
 Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
 
-## Demo
+## Live Demo
 
-https://github.com/Shruthi018/todo-list/assets/137261316/50f3804e-5a92-4cad-bd2f-b28e5caeff3e
-
+https://shruthi018.github.io/todo-list/home.html
 
