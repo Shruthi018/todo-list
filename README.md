@@ -36,7 +36,9 @@ Todo List/
 2. Configure database in `src/main/resources/application.properties`  
 3. Build and run:
         mvn spring-boot:run
-4.Backend runs on http://localhost:8081
+4. Backend runs on http://localhost:8081
+       
+
 
 
 ## 🎨 Frontend
