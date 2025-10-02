@@ -59,7 +59,8 @@ Todo List/
 
   ## 🌐 Deployed Frontend
 The frontend of this project is deployed and accessible here:  
-👉 [Live Demo]([https://your-frontend-link.com](https://shruthi018.github.io/todo-list/Todo%20List/frontend/login.html))
+👉 [Live Demo]
+https://shruthi018.github.io/todo-list/Todo%20List/frontend/login.html
 
-⚠️ Note: The backend (Spring Boot API) must be running locally or deployed separately at `http://localhost:8080` (or your backend host) for full functionality.
+⚠️ Note: The backend (Spring Boot API) must be running locally or deployed separately at `http://localhost:8081` (or your backend host) for full functionality.
 
