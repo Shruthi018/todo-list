@@ -55,4 +55,11 @@ Todo List/
 - `GET /todos` → Fetch all todos  
 - `POST /todos` → Create a new todo  
 - `PUT /todos/{id}` → Update a todo  
-- `DELETE /todos/{id}` → Delete a todo  
+- `DELETE /todos/{id}` → Delete a todo
+
+  ## 🌐 Deployed Frontend
+The frontend of this project is deployed and accessible here:  
+👉 [Live Demo]([https://your-frontend-link.com](https://shruthi018.github.io/todo-list/Todo%20List/frontend/login.html))
+
+⚠️ Note: The backend (Spring Boot API) must be running locally or deployed separately at `http://localhost:8080` (or your backend host) for full functionality.
+
