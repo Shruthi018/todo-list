@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="container">
+    <center>
+        <header><h1>TODO LIST</h1></header>
+        <br/><br/>
+
+        <form id="myform" onsubmit="addTodo(event)">
+            <table style="margin: auto; border-collapse: collapse;">
+        <tr>
+            <td><label for="task">Task</label></td>
+            <td>
+                <input type="text" id="task" class="myinput" autocomplete="off" 
+                       style="width: 100%;" placeholder="Enter the task">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="desc">Description</label></td>
+            <td>
+                <input type="text" id="desc" class="myinput" autocomplete="off" 
+                       style="width: 100%;" placeholder="Enter description">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center; padding-top: 10px;">
+                <button type="submit">Add Todo</button>
+                <button type="button" onclick="window.location.href='login.html';">Log out</button>
+            </td>
+        </tr>
+    </table>
+        </form>
+        <hr/>
+
+        <h2>Your List</h2>
+        <div id="todo-list"></div>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(sea.gif);
+    background-size: cover;
+    background-attachment: fixed;  /* keeps bg steady while scrolling */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+header {
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+h1 {
+    margin: 0;
+}
+td {
+    padding: 10px;
+}
+td label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.myinput {
+    width: 150%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2) inset;
+    transition: all 0.3s ease;
+}
+
+
+input:focus {
+    box-shadow: 0 0 8px rgba(37,117,252,0.6);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+ul li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+ul li button {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+    cursor: pointer;
+}
+
+ul li input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #777;
+    opacity: 0.7;
+}
+
+
+ul li button:hover {
+    background-color: #c0392b;
+}
