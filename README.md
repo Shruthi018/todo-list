@@ -1,54 +1,55 @@
-# To-Do List Application
+# Todo List Application
 
-This is a simple To-Do List application built with HTML, CSS, and JavaScript. It allows users to add, mark as completed, and delete tasks from the list.
-
-## Features
-
-- Add tasks to the list
-- Mark tasks as completed
-- Delete tasks from the list
-- Persistent storage using local storage (tasks remain even after refreshing the page)
+A full-stack **Todo List** application with user authentication.  
+Frontend built with **HTML, CSS, JavaScript** and backend powered by **Spring Boot** with **JWT authentication**.  
 
 
-## Getting Started
+## 🚀 Features
+- User registration and login  
+- JWT-based authentication & authorization  
+- Add, update, delete todo items  
+- Responsive UI with HTML,JS and CSS  
+- RESTful backend API  
 
-Follow these instructions to get a copy of the project up and running on your local machine.
 
-### Prerequisites
+## 🛠️ Tech Stack
+**Frontend:** HTML, CSS, JavaScript  
+**Backend:** Spring Boot, Java  
+**Database:** (configure in `application.properties`, e.g. MySQL/H2)  
+**Authentication:** JWT (JSON Web Token)  
 
-You will need a web browser and vs code to run this application.
 
-### Installation
+## 📂 Project Structure
+Todo List/
+├── frontend/ # HTML, CSS, JS files for UI
+├── springBootDemo/ # Spring Boot backend project
+└── .idea/ # IDE configuration files
 
-1. Clone the repository:
 
-    git clone https://github.com/Shruthi018/todo-list.git
+## ⚡ Getting Started
 
-2. Navigate to the project directory:
+### Backend (Spring Boot)
+1. Navigate to `springBootDemo/`  
+2. Configure database in `src/main/resources/application.properties`  
+3. Build and run:
+        mvn spring-boot:run
+4.Backend runs on http://localhost:8081
 
-    cd todo-list
 
-3. Open `home.html` in your web browser to view the application.
+## 🎨 Frontend
+1. Navigate to `frontend/`  
+2. Open `index.html` in your browser (or use **Live Server** in VS Code).  
+3. Frontend will interact with backend APIs at **http://localhost:8081**  
 
-## Usage
 
-1. Open the application in your web browser.
-2. Use the input field to add a new task.
-3. Click the "Add" button to add the task to the list.
-4. Click on a task to mark it as completed.
-5. Click the "Delete" button next to a task to remove it from the list.
+## 🔑 API Endpoints
 
-## Built With
+### Auth
+- `POST /auth/register` → Register new user  
+- `POST /auth/login` → Login and get JWT  
 
-- HTML
-- CSS
-- JavaScript
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
-
-## Live Demo
-
-https://shruthi018.github.io/todo-list/home.html
-
+### Todos (JWT required)
+- `GET /todos` → Fetch all todos  
+- `POST /todos` → Create a new todo  
+- `PUT /todos/{id}` → Update a todo  
+- `DELETE /todos/{id}` → Delete a todo  
