@@ -21,8 +21,11 @@ Frontend built with **HTML, CSS, JavaScript** and backend powered by **Spring Bo
 
 ## 📂 Project Structure
 Todo List/
+
 ├── frontend/ # HTML, CSS, JS files for UI
+
 ├── springBootDemo/ # Spring Boot backend project
+
 └── .idea/ # IDE configuration files
 
 
